@@ -1,5 +1,10 @@
-const app = './server.js';
+'use-strict'
 
-app.listen(3002, () => {
+require('dotenv').config();
+const app = require('./server.js');
+
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
     console.log('App is listening!!');
 });
