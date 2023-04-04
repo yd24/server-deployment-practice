@@ -1,3 +1,5 @@
+'use strict';
+
 //Dependency Injection
 //We add the local path since this is not an installed node module.
 const capitalize = require('./capitalize.js');
